@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TabCalculator_Converter</string>
+
+    <string name="kilometer_s">Kilometer(s)</string>
+    <string name="mile_s">Mile(s)</string>
+    <string name="enter_kilometers">Enter Kilometers</string>
+    <string name="enter_miles">Enter Miles</string>
+
+    <string name="convert">Convert</string>
+
+    <string name="celsius">Celsius:</string>
+    <string name="fahrenheit">Fahrenheit:</string>
+    <string name="enter_fahrenheit">Enter Fahrenheit</string>
+    <string name="enter_celsius">Enter Celsius</string>
+
+    <string name="total_bill">Total Bill:</string>
+    <string name="number_of_people">Number of People:</string>
+    <string name="tip_percentage">Tip Percentage:</string>
+    <string name="calculate">Calculate</string>
+    <string name="tip_response">Total per person is: $</string>
+
+    <string name="tip_empty">Please make sure all areas are filled</string>
+    <string name="temp_empty">Please enter a temperature to be converted</string>
+    <string name="distance_empty">Please enter a distance to be converted</string>
+
+</resources>
