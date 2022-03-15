@@ -52,7 +52,6 @@ public class TabLayoutContainer extends Fragment {
                         tab.setText("Distance Converter");
                         break;
                 }
-
             }
         }).attach();
     }

@@ -4,8 +4,6 @@ import java.util.Locale;
 
 public class DistanceModel {
 
-
-
     public DistanceModel(){
 
     }

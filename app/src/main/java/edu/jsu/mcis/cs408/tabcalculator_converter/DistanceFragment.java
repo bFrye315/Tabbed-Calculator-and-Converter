@@ -41,7 +41,7 @@ public class DistanceFragment extends Fragment {
                 String conversion;
 
                 if(miles.isEmpty() && kilometers.isEmpty()){
-                    Toast toast = Toast.makeText(distanceBinding.getRoot().getContext(), R.string.distance_empty, Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(distanceBinding.getRoot().getContext(), getString(R.string.distance_empty), Toast.LENGTH_SHORT);
                     toast.show();
                 }
                 else if(miles.isEmpty()){

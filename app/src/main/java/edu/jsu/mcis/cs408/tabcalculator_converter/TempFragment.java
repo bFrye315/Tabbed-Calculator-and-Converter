@@ -42,7 +42,7 @@ public class TempFragment extends Fragment {
                 String conversion;
 
                 if(fahrenheit.isEmpty() && celsius.isEmpty()){
-                    Toast toast = Toast.makeText(temperatureBinding.getRoot().getContext(), R.string.temp_empty, Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(temperatureBinding.getRoot().getContext(), getString(R.string.temp_empty), Toast.LENGTH_SHORT);
                     toast.show();
                 }
                 else if(fahrenheit.isEmpty()){

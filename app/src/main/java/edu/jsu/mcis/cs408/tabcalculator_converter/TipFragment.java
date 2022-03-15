@@ -42,13 +42,13 @@ public class TipFragment extends Fragment {
                 String peopleNumS = String.valueOf(tipBinding.numOfPeople.getText());
 
                 if (totalBillS.isEmpty() || peopleNumS.isEmpty() || percentS.isEmpty()){
-                    Toast toast = Toast.makeText(tipBinding.getRoot().getContext(), R.string.tip_empty, Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(tipBinding.getRoot().getContext(), getString(R.string.tip_empty), Toast.LENGTH_SHORT);
                     toast.show();
                 }
                 else{
-                    StringBuilder stringBuilder = new StringBuilder(R.string.tip_response);
-                    stringBuilder.append(tipModel.tipCalculate(totalBillS, percentS, peopleNumS)) ;
-                    tipBinding.amountText.setText(String.valueOf(stringBuilder));
+                    StringBuilder str = new StringBuilder(getString(R.string.tip_response));
+                    str.append(tipModel.tipCalculate(totalBillS, percentS, peopleNumS)) ;
+                    tipBinding.amountText.setText(String.valueOf(str));
                 }
             }
         });

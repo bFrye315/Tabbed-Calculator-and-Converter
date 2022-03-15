@@ -4,8 +4,6 @@ import java.util.Locale;
 
 public class TemperatureModel {
 
-
-
     public TemperatureModel(){
 
     }
